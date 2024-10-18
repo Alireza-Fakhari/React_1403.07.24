@@ -1,0 +1,105 @@
+#card02 {
+  background-color: #f9fafc;
+}
+
+.card02-width {
+  padding: 50px 0;
+  max-width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+  .card03-width {
+    justify-content: center;
+    gap: 25px;
+  }
+}
+
+.swiper-slide-02 {
+  width: 246.667px;
+  margin-left: 20px;
+}
+
+.post-item-content-02{
+  text-align: right;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #FFFFFF;
+  border-radius: 15px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
+}
+
+.post-item-content-02:hover{
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #3555F9;
+}
+
+.post-cover-02{
+  margin-bottom: 15px;
+  overflow: hidden;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.attachment-full-02{
+  object-fit: cover;
+  height: 220px;
+  width: 100%;
+  transition: ease .17s;
+}
+
+.post-item-content-02:hover .post-cover-02 img{
+  transform: scale(1.5) rotate(-7deg);
+}
+
+.post-title-wrap-02{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.post-title-wrap-02 a h2{
+  font-family: IranSans;
+  color: #3F3F3F;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.ah-post-like-btn-02{
+  color: #fff;
+  cursor: pointer;
+  height: 25px;
+}
+
+.ah-post-like-btn-02 svg{
+  width: 25px;
+  height: 25px;
+}
+
+.post-button-02{
+  display: flex;
+  justify-content: center;
+}
+
+.post-button-02 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3555F90D;
+  color: #112AAD;
+  font-family: IranSans;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+  padding: 7px 7px 7px 7px;
+  border-radius: 10px 10px 10px 10px;
+}
